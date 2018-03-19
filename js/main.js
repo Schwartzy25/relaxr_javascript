@@ -7,8 +7,6 @@ $('a').on('click', function(event) {
 	event.preventDefault();
 });
 
-//Select the appropriate DOM elements with CSS selectors upon a user's click using the $.click() handler
-
 //If a user clicks "Read More" on the primary column
 
 $('.readmore').on('click', function() {
@@ -20,7 +18,7 @@ $('.readmore').on('click', function() {
 
 });
 
-//if a user clicks the "Learn More" link in the sidebar, have the <span> inside that <p> slide down and hide the "Learn More" link using $.slideDown() and $.hide()
+//if a user clicks the "Learn More" link in the sidebar
 $('.learnmore').on('click', function() {
 	// content slides down
 	$('p span').slideDown();
